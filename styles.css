@@ -1,0 +1,44 @@
+body{
+  background-color: grey;
+}
+header{
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+main{
+  background-color: white
+  padding: 15px;
+  margin: 10px;
+}
+footer {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+}
+nav{
+
+}
+nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  background-color: grey;
+  color: white;
+  list-style: none;
+}
+nav li{
+  padding: 2%;
+  text-decoration: none;
+  align-content: center;
+}
+
+.noticias{
+  padding: 15px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
